@@ -29,7 +29,7 @@
 }
 
 .welcome-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 4rem);
     font-weight: 900;
     font-style: italic;
     text-transform: uppercase;
@@ -60,7 +60,7 @@
 }
 
 .space-btn {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: 2px solid #4dd0e1;
   box-shadow: 0 0 15px rgba(77, 208, 225, 0.7), inset 0 0 10px rgba(255, 255, 255, 0.2);

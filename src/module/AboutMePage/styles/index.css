@@ -16,8 +16,33 @@
   animation: fadeIn 0.8s ease-out;
 }
 
+.about-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    color: white;
+}
+
+.about-subtitle {
+    font-size: clamp(1rem, 1.1vw, 1.5rem);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.about-content {
+    font-size: clamp(0.2rem);
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
 .card-body {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   color: #fff;
   border: 2px solid #4dd0e1;
@@ -28,12 +53,12 @@
 }
 
 .card-body:hover {
-  transform: scale(1.05);
+  transform: scale(1);
   box-shadow: 0 0 25px rgba(77, 208, 225, 1), inset 0 0 15px rgba(255, 255, 255, 0.4);
 }
 
 .card-body:active {
-  transform: scale(1.05);
+  transform: scale(1);
 }
 
 .card-index {
@@ -43,4 +68,23 @@
 .profile-image {
   border-radius: 100%;
   border: 5px;
+}
+
+.space-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 2px solid #4dd0e1;
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.7), inset 0 0 10px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  text-shadow: 0 0 5px #4dd0e1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.space-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(77, 208, 225, 1), inset 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.space-btn:active {
+  transform: scale(0.98);
 }

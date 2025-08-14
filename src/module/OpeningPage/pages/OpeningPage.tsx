@@ -15,10 +15,10 @@ const OpeningPage: React.FC = () => {
       <CContainer className="layout-container">
         <CRow className="align-items-center">
           <CCol md={6}>
-            <h2 className="welcome-subtitle">Hai, Selamat Datang</h2>
-            <h1 className="welcome-title">UJANG ARIPIN</h1>
+            <p className="welcome-subtitle">Hai, Selamat Datang</p>
+            <p className="welcome-title">Saya Ujang Aripin</p>
             <p className="welcome-content">
-              Software Developer | Linux Enthusiast
+              Saya adalah seroang Software Developer dengan keahlian dalam pengembangan aplikasi berbasis website dan mobile serta saya juga seorang Linux Enthusiast.
             </p>
             <CButton onClick={handleDownload} className="space-btn text-white">
               🚀 Download PDF
