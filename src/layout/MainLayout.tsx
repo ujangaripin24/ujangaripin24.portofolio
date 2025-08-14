@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderLayout from "./HeaderLayout";
+import StarBackground from "../components/StarBackground";
 
 interface MainLayoutProps {
   children: React.ReactNode;
@@ -7,7 +8,7 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div style={{ background: "#0d010f", minHeight: "100vh", overflowX: "hidden" }}>
+    <div style={{ background: "#0d010f", minHeight: "100vh", overflowX: "hidden"}}>
       <div
         style={{
           position: "fixed",
@@ -16,21 +17,15 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           pointerEvents: "none",
         }}
       >
+        <StarBackground />
       </div>
 
-      <div style={{ position: "relative", zIndex: 10 }}>
+      <div style={{ position: "relative", zIndex: 1 }}>
         <HeaderLayout />
+        <main style={{ paddingTop: "0px" }}>
+          {children}
+        </main>
       </div>
-
-      <main
-        style={{
-          position: "relative",
-          zIndex: 5,
-          paddingTop: "80px",
-        }}
-      >
-        {children}
-      </main>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkExperiencePage:React.FC = () => {
   return (
-    <div>WorkExperiencePage</div>
+    <div className="text-white">WorkExperiencePage</div>
   )
 }
 

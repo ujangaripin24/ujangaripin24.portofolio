@@ -5,6 +5,7 @@ html, body, #root {
   width: 100%;
   background: #0d010f;
   overflow-x: hidden;
+
 }
 
 canvas {

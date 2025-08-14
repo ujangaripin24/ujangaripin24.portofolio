@@ -2,7 +2,7 @@ import React from 'react'
 
 const MySkillPage:React.FC = () => {
   return (
-    <div>MySkillPage</div>
+    <div className="text-white">MySkillPage</div>
   )
 }
 

@@ -6,13 +6,13 @@ const HeaderLayout: React.FC = () => {
       className="navbar navbar-expand-lg fixed-top"
       style={{
         backdropFilter: "blur(10px)",
-        backgroundColor: "rgba(13, 1, 15, 0.4)", // warna gelap transparan
+        backgroundColor: "rgba(13, 1, 15, 0.4)",
         borderBottom: "1px solid rgba(255, 255, 255, 0.1)",
       }}
     >
       <div className="container">
         <a className="navbar-brand text-white fw-bold" href="#home">
-          🚀 My Portfolio
+          🚀 UJANG ARIPIN
         </a>
 
         <button
@@ -58,6 +58,8 @@ const HeaderLayout: React.FC = () => {
         </div>
       </div>
     </nav>
+
+
   );
 };
 

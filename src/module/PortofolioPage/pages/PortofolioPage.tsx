@@ -2,7 +2,7 @@ import React from 'react'
 
 const PortofolioPage:React.FC  = () => {
   return (
-    <div>PortofolioPage</div>
+    <div className="text-white">PortofolioPage</div>
   )
 }
 

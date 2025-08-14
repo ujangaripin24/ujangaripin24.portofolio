@@ -76,13 +76,25 @@ function ShootingStar() {
 
 const StarBackground = () => {
   return (
-    <Canvas camera={{ position: [0, 0, 500] }}>
-      <StartMoving />
-      <ShootingStar/>
-      <ShootingStar/>
-      <ShootingStar/>
-    </Canvas>
-  )
-}
+    <div style={{
+      position: "fixed",
+      top: 0,
+      left: 0,
+      width: "100vw",
+      height: "100vh",
+    }}>
+      <Canvas
+        style={{ width: "100%", height: "100%" }}
+        camera={{ position: [0, 0, 500] }}
+      >
+        <StartMoving />
+        <ShootingStar />
+        <ShootingStar />
+        <ShootingStar />
+      </Canvas>
+    </div>
+  );
+};
+
 
 export default StarBackground
