@@ -1,3 +1,15 @@
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-35px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .layout-section {
     min-height: 100vh;
     width: 100%;
@@ -42,8 +54,26 @@
 }
 
 .welcome-image {
-    animation: float 4s ease-in-out infinite;
+    animation: floatUpDown 3s ease-in-out infinite;
     max-width: 100%;
     height: auto;
-    filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.15));
+}
+
+.space-btn {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  border: 2px solid #4dd0e1;
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.7), inset 0 0 10px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  text-shadow: 0 0 5px #4dd0e1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.space-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(77, 208, 225, 1), inset 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.space-btn:active {
+  transform: scale(0.98);
 }
