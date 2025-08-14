@@ -20,6 +20,9 @@ const AboutPage: React.FC = () => {
                   <h1 className="about-title">TENTANG SAYA</h1>
                 </div>
                 <div>
+                  <h1 className="about-subtitle">Dengan pengalaman lebih dari 2 tahun bekerja dalam pengembangan aplikasi web menggunakan framework modern seperti Vue.js, React.js dan Angular. Terampil dalam mengimplementasikan desain dari Figma, memastikan desain yang responsif di semua perangkat. Pengalaman saya mencangkup state management(Redux/Vuex), integrasi RESTful API berkolaborasi dengan tim Backend, serta penerapan unit testing(Vitest/Jasmine). Saya terbiasa bekerja dalam tim menggunakan GIT sebagai version control.</h1>
+                </div>
+                <div>
                   <CRow>
                     <CCol>
                       <div>
