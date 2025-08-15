@@ -1,4 +1,18 @@
-html, body, #root {
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+@keyframes nebulaMove {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2) translate(-10px, -10px);
+  }
+}
+
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -6,10 +20,21 @@ html, body, #root {
   background: #0d010f;
   overflow-x: hidden;
   overflow-y: scroll;
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: 'Orbitron', sans-serif;
 }
 
 canvas {
   display: block;
+}
+
+.body-layer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(77, 208, 225, 0.2), transparent),
+    radial-gradient(circle at 80% 80%, rgba(255, 0, 255, 0.2), transparent);
+  animation: nebulaMove 10s ease-in-out infinite alternate;
+  z-index: 0;
 }

@@ -7,8 +7,8 @@ function StartMoving() {
 
   const starRun = useMemo(() => {
     const positionStar: number[] = []
-    for (let i = 0; i < 1500; i++) {
-      const r = Math.cbrt(Math.random()) * 1500;
+    for (let i = 0; i < 1200; i++) {
+      const r = Math.cbrt(Math.random()) * 2000;
       const theta = Math.acos(2 * Math.random() - 1);
       const phi = 2 * Math.PI * Math.random();
       const x = r * Math.sin(theta) * Math.cos(phi);
@@ -20,6 +20,7 @@ function StartMoving() {
   }, [])
 
   useFrame(() => {
+    if (document.visibilityState !== "visible") return;
     if (ref.current) {
       ref.current.rotation.y += 0.005;
       ref.current.rotation.x += 0.002;
@@ -36,7 +37,7 @@ function StartMoving() {
       </bufferGeometry>
       <pointsMaterial
         color={'white'}
-        size={1}
+        size={0.6}
         sizeAttenuation
         transparent
         opacity={0.8}
@@ -86,9 +87,9 @@ const StarBackground = () => {
       <Canvas
         style={{ width: "100%", height: "100%" }}
         camera={{ position: [0, 0, 500] }}
+        gl={{ powerPreference: "low-power" }}
       >
         <StartMoving />
-        <ShootingStar />
         <ShootingStar />
         <ShootingStar />
       </Canvas>

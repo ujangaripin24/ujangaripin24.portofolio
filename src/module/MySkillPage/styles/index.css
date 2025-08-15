@@ -25,6 +25,11 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   position: relative;
   color: white;
+  text-shadow:
+    0 0 5px #4dd0e1,
+    0 0 10px #4dd0e1,
+    0 0 20px #4dd0e1,
+    0 0 40px #4dd0e1;
 }
 
 .skill-subtitle {

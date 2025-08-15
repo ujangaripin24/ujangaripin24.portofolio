@@ -17,37 +17,42 @@
 }
 
 .about-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    font-weight: 900;
-    font-style: italic;
-    text-transform: uppercase;
-    margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    position: relative;
-    color: white;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  color: white;
+  text-shadow:
+    0 0 5px #4dd0e1,
+    0 0 10px #4dd0e1,
+    0 0 20px #4dd0e1,
+    0 0 40px #4dd0e1;
 }
 
 .about-subtitle {
-    font-size: clamp(1rem, 1.1vw, 1.5rem);
-    font-weight: 500;
-    margin-bottom: 2rem;
-    color: white;
-    text-align: justify;
+  font-size: clamp(1rem, 1.1vw, 1.5rem);
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: justify;
 }
 
 
 .about-subtitle-bio {
-    font-size: clamp(1rem, 1.1vw, 1.5rem);
-    font-weight: 500;
-    color: white;
-    text-align: start;
+  font-size: clamp(1rem, 1.1vw, 1.5rem);
+  font-weight: 500;
+  color: white;
+  text-align: start;
 }
 
 .about-content {
-    font-size: clamp(0.2rem);
-    color: white;
-    font-weight: 700;
-    margin-bottom: 2rem;
+  font-size: clamp(0.2rem);
+  color: white;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 .card-body {
@@ -74,11 +79,6 @@
   background-color: transparent !important;
 }
 
-.profile-image {
-  border-radius: 100%;
-  border: 5px;
-}
-
 .space-btn {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -98,7 +98,7 @@
   transform: scale(0.98);
 }
 
-.about-contact{
+.about-contact {
   margin-right: 5px;
   margin-top: 5px;
 }

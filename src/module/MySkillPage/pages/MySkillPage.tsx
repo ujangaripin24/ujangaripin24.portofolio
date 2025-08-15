@@ -30,16 +30,16 @@ const MySkillPage: React.FC = () => {
             <div>
               <CRow>
                 <CCol>
-                  <CImage title="Vue" className='space-btn' src={VueIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Vue" className='space-btn' src={VueIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="React" className='space-btn' src={ReactIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="React" className='space-btn' src={ReactIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Angular" className='space-btn' src={AngularIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Angular" className='space-btn' src={AngularIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Next.js" className='space-btn' src={NextjsIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Next.js" className='space-btn' src={NextjsIcon} width={100} height={'auto'} />
                 </CCol>
               </CRow>
             </div>
@@ -49,16 +49,16 @@ const MySkillPage: React.FC = () => {
             <div>
               <CRow>
                 <CCol>
-                  <CImage title="Vuex" className='space-btn' src={VuexIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Vuex" className='space-btn' src={VuexIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Redux" className='space-btn' src={ReduxIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Redux" className='space-btn' src={ReduxIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Vitest" className='space-btn' src={VitestIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Vitest" className='space-btn' src={VitestIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Jasmine" className='space-btn' src={JasmineIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Jasmine" className='space-btn' src={JasmineIcon} width={100} height={'auto'} />
                 </CCol>
               </CRow>
             </div>
@@ -68,13 +68,13 @@ const MySkillPage: React.FC = () => {
             <div>
               <CRow>
                 <CCol>
-                  <CImage title="Express.js (ES6)" className='space-btn' src={ExpressIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Express.js (ES6)" className='space-btn' src={ExpressIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Spring Boot(Java)" className='space-btn' src={SpringBootIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Spring Boot(Java)" className='space-btn' src={SpringBootIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Gin Gonic (Golang)" className='space-btn' src={GinGonicIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Gin Gonic (Golang)" className='space-btn' src={GinGonicIcon} width={100} height={'auto'} />
                 </CCol>
               </CRow>
             </div>
@@ -84,16 +84,16 @@ const MySkillPage: React.FC = () => {
             <div>
               <CRow>
                 <CCol>
-                  <CImage title="MySQL" className='space-btn' src={MySQLIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="MySQL" className='space-btn' src={MySQLIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="PostgreSQL" className='space-btn' src={PostgreSQLIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="PostgreSQL" className='space-btn' src={PostgreSQLIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Redis" className='space-btn' src={RedisIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Redis" className='space-btn' src={RedisIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage title="Firestore" className='space-btn' src={FirestoreIcon} width={100} height={'auto'} />
+                  <CImage loading='lazy' title="Firestore" className='space-btn' src={FirestoreIcon} width={100} height={'auto'} />
                 </CCol>
               </CRow>
             </div>

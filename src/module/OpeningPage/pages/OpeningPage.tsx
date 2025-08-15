@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/index.css'
 import { CButton, CCol, CContainer, CRow } from "@coreui/react";
-import SideImage from '../../../assets/side-image.png'
+import SideImage from '../../../assets/side-image.webp'
 
 const OpeningPage: React.FC = () => {
   const handleDownload = () => {

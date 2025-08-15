@@ -1,7 +1,7 @@
 import type React from "react"
 import '../styles/index.css'
 import { CButton, CCard, CCardBody, CCol, CContainer, CImage, CRow } from "@coreui/react";
-import profileImage from '../../../assets/ujang.jpg'
+import profileImage from '../../../assets/ujang.webp'
 
 const AboutPage: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const AboutPage: React.FC = () => {
             <CRow className="align-items-center">
               <CCol md={6} className="text-center d-none d-md-block">
                 <div>
-                  <CImage rounded src={profileImage} />
+                  <CImage rounded loading='lazy' src={profileImage} />
                 </div>
               </CCol>
               <CCol md={6}>
