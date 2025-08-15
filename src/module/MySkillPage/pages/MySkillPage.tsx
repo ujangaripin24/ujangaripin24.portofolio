@@ -5,6 +5,17 @@ import VueIcon from '../../../assets/icon/Vue.svg'
 import ReactIcon from '../../../assets/icon/React.svg'
 import AngularIcon from '../../../assets/icon/Angular.svg'
 import NextjsIcon from '../../../assets/icon/Next.svg'
+import VuexIcon from '../../../assets/icon/Vuex.svg'
+import ReduxIcon from '../../../assets/icon/Redux.svg'
+import VitestIcon from '../../../assets/icon/Vitest.svg'
+import JasmineIcon from '../../../assets/icon/Jasmine.svg'
+import ExpressIcon from '../../../assets/icon/Express.svg'
+import SpringBootIcon from '../../../assets/icon/Spring-Boot.svg'
+import GinGonicIcon from '../../../assets/icon/Golang.svg'
+import MySQLIcon from '../../../assets/icon/My-SQL.svg'
+import PostgreSQLIcon from '../../../assets/icon/PostGIS.svg'
+import RedisIcon from '../../../assets/icon/REDIS.svg'
+import FirestoreIcon from '../../../assets/icon/Firebase.svg'
 
 const MySkillPage: React.FC = () => {
   return (
@@ -22,51 +33,72 @@ const MySkillPage: React.FC = () => {
                   <CImage title="Vue" className='space-btn' src={VueIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage className='space-btn' src={ReactIcon} width={100} height={'auto'} />
+                  <CImage title="React" className='space-btn' src={ReactIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage className='space-btn' src={AngularIcon} width={100} height={'auto'} />
+                  <CImage title="Angular" className='space-btn' src={AngularIcon} width={100} height={'auto'} />
                 </CCol>
                 <CCol>
-                  <CImage className='space-btn' src={NextjsIcon} width={100} height={'auto'} />
+                  <CImage title="Next.js" className='space-btn' src={NextjsIcon} width={100} height={'auto'} />
                 </CCol>
               </CRow>
             </div>
           </div>
-          <div>
+          <div className='mt-4'>
             <div className='skill-subtitle text-center'>State Management & Unit Testing</div>
             <div>
               <CRow>
-                <CCol>1</CCol>
-                <CCol>2</CCol>
-                <CCol>3</CCol>
-                <CCol>4</CCol>
+                <CCol>
+                  <CImage title="Vuex" className='space-btn' src={VuexIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="Redux" className='space-btn' src={ReduxIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="Vitest" className='space-btn' src={VitestIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="Jasmine" className='space-btn' src={JasmineIcon} width={100} height={'auto'} />
+                </CCol>
               </CRow>
             </div>
           </div>
-          <div>
+          <div className='mt-4'>
             <div className='skill-subtitle text-center'>Backend</div>
             <div>
               <CRow>
-                <CCol>1</CCol>
-                <CCol>2</CCol>
-                <CCol>3</CCol>
-                <CCol>4</CCol>
+                <CCol>
+                  <CImage title="Express.js (ES6)" className='space-btn' src={ExpressIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="Spring Boot(Java)" className='space-btn' src={SpringBootIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="Gin Gonic (Golang)" className='space-btn' src={GinGonicIcon} width={100} height={'auto'} />
+                </CCol>
               </CRow>
             </div>
           </div>
-          <div>
+          <div className='mt-4'>
             <div className='skill-subtitle text-center'>Database</div>
             <div>
               <CRow>
-                <CCol>1</CCol>
-                <CCol>2</CCol>
-                <CCol>3</CCol>
-                <CCol>4</CCol>
+                <CCol>
+                  <CImage title="MySQL" className='space-btn' src={MySQLIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="PostgreSQL" className='space-btn' src={PostgreSQLIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="Redis" className='space-btn' src={RedisIcon} width={100} height={'auto'} />
+                </CCol>
+                <CCol>
+                  <CImage title="Firestore" className='space-btn' src={FirestoreIcon} width={100} height={'auto'} />
+                </CCol>
               </CRow>
             </div>
           </div>
-          <div>
+          <div className='mt-4'>
             <div className='skill-subtitle text-center'>Mobile & Hybrid</div>
             <div>
               <CRow>
@@ -77,7 +109,7 @@ const MySkillPage: React.FC = () => {
               </CRow>
             </div>
           </div>
-          <div>
+          <div className='mt-4'>
             <div className='skill-subtitle text-center'>Cloud Service & CI/CD</div>
             <div>
               <CRow>
