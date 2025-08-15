@@ -26,25 +26,25 @@ const AboutPage: React.FC = () => {
                   <CRow>
                     <CCol>
                       <div>
-                        <div><p className="about-subtitle">Nama: Ujang Aripin</p></div>
-                        <div><p className="about-subtitle">Pendidikan: Strata 1</p></div>
-                        <div><p className="about-subtitle">Email: ujangarifin06@gmail.com</p></div>
+                        <div><p className="about-subtitle-bio">Nama: Ujang Aripin</p></div>
+                        <div><p className="about-subtitle-bio">Pendidikan: Strata 1</p></div>
+                        <div><p className="about-subtitle-bio">Email: ujangarifin06@gmail.com</p></div>
                       </div>
                     </CCol>
                     <CCol>
                       <div>
-                        <div><p className="about-subtitle">Nomor Telepon: 0859-5983-4070</p></div>
-                        <div><p className="about-subtitle">Domisili: Kota Bandung dan Jabodetabek</p></div>
+                        <div><p className="about-subtitle-bio">Nomor Telepon: 0859-5983-4070</p></div>
+                        <div><p className="about-subtitle-bio">Domisili: Kota Bandung dan Jabodetabek</p></div>
                       </div>
                     </CCol>
                   </CRow>
                 </div>
-                <div style={{ justifyContent: 'space-between', display: 'flex' }}>
-                  <CButton className="space-btn text-white">🚀 WhatsApp</CButton>
-                  <CButton className="space-btn text-white">🚀 Facebook</CButton>
-                  <CButton className="space-btn text-white">🚀 Instagram</CButton>
-                  <CButton className="space-btn text-white">🚀 LinkedIn</CButton>
-                  <CButton className="space-btn text-white">🚀 Gmail</CButton>
+                <div className="about-contact">
+                  <CButton className="about-contact space-btn text-white">🚀 WhatsApp</CButton>
+                  <CButton className="about-contact space-btn text-white">🚀 Facebook</CButton>
+                  <CButton className="about-contact space-btn text-white">🚀 Instagram</CButton>
+                  <CButton className="about-contact space-btn text-white">🚀 LinkedIn</CButton>
+                  <CButton className="about-contact space-btn text-white">🚀 Gmail</CButton>
                 </div>
               </CCol>
             </CRow>

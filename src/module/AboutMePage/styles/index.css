@@ -29,10 +29,18 @@
 
 .about-subtitle {
     font-size: clamp(1rem, 1.1vw, 1.5rem);
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 2rem;
     color: white;
     text-align: justify;
+}
+
+
+.about-subtitle-bio {
+    font-size: clamp(1rem, 1.1vw, 1.5rem);
+    font-weight: 500;
+    color: white;
+    text-align: start;
 }
 
 .about-content {
@@ -88,4 +96,9 @@
 
 .space-btn:active {
   transform: scale(0.98);
+}
+
+.about-contact{
+  margin-right: 5px;
+  margin-top: 5px;
 }
