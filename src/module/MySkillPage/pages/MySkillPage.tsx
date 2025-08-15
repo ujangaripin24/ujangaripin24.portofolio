@@ -30,7 +30,7 @@ const MySkillPage: React.FC = () => {
             </div>
           </div>
           <div className='mt-4'>
-            <div className='skill-subtitle text-center'>State Management & Fronted Tools</div>
+            <div className='skill-subtitle text-center'>State Management & Frontend Tools</div>
             <div>
               <CRow>
                 <CCol>
