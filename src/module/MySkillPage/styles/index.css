@@ -17,31 +17,44 @@
 }
 
 .skill-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    font-weight: 900;
-    font-style: italic;
-    text-transform: uppercase;
-    margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    position: relative;
-    color: white;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  color: white;
 }
 
 .skill-subtitle {
-    font-size: clamp(1rem, 1.1vw, 1.5rem);
-    font-weight: 700;
-    margin-bottom: 2rem;
-    color: white;
-    text-align: justify;
+  font-size: clamp(1rem, 1.1vw, 1.5rem);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: justify;
 }
 
 .skill-content {
-    font-size: clamp(0.2rem);
-    color: white;
-    font-weight: 700;
-    margin-bottom: 2rem;
+  font-size: clamp(0.2rem);
+  color: white;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 .skill-layout {
   height: 100vh;
+  justify-items: center;
+}
+
+.space-btn {
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.7), inset 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.space-btn:hover {
+  transform: scale(1.05);
+}
+
+.space-btn:active {
+  transform: scale(0.98);
 }
