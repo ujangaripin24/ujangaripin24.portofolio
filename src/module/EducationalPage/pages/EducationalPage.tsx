@@ -5,9 +5,8 @@ import '../styles/index.css'
 
 export const EducationalPage: React.FC = () => {
   return (
-    <div className="educational-container">
-      <CContainer className="text-white py-5">
-        <h1 className="text-center mb-5 neon-text">Riwayat Pendidikan</h1>
+      <CContainer className="py-5">
+        <h1 className="text-center neon-text">Riwayat Pendidikan</h1>
         <CRow className="g-4 justify-content-center">
           {educationData.data.map((item) => (
             <CCol key={item.id} md={6} lg={4}>
@@ -22,6 +21,5 @@ export const EducationalPage: React.FC = () => {
           ))}
         </CRow>
       </CContainer>
-    </div>
   )
 }

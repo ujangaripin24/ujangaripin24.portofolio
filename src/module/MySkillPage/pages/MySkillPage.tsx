@@ -1,10 +1,10 @@
 import React from 'react'
-import { CButton, CCol, CContainer, CImage, CRow } from "@coreui/react";
+import { CCol, CContainer, CImage, CRow } from "@coreui/react";
 import '../styles/index.css'
 
 const MySkillPage: React.FC = () => {
   return (
-    <CContainer>
+    <CContainer className="py-5">
       <div className="text-center">
         <h1 className="about-title">KETERAMPILAN SAYA</h1>
       </div>

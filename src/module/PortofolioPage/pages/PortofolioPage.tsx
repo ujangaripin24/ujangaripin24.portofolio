@@ -6,7 +6,7 @@ import dataPortofolio from '../../../assets/data/data-protofolio.json'
 const PortofolioPage: React.FC = () => {
   const [visible, setVisible] = useState<number | null>(null)
   return (
-    <CContainer>
+    <CContainer className="py-5">
       <div className="text-center">
         <h1 className="portofolio-title">PORTOFOLIO SAYA</h1>
       </div>

@@ -5,7 +5,7 @@ import profileImage from '../../../assets/ujang.webp'
 
 const AboutPage: React.FC = () => {
   return (
-    <CContainer >
+    <CContainer className="py-5">
       <div className="text-center">
         <h1 className="about-title">TENTANG SAYA</h1>
       </div>
