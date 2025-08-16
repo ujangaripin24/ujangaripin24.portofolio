@@ -3,38 +3,45 @@
     "data": [
         {
             "id": 1,
-            "perusahaan": "Galactic Corp",
-            "posisi": "Frontend Developer",
-            "tahun": "2023 - Sekarang",
-            "deskripsi": "Mengembangkan antarmuka interaktif untuk dashboard pengendalian roket menggunakan React.js dan Three.js."
+            "perusahaan": "SMK MARGA INSTAN KAMIL ",
+            "posisi": "GURU PRODUKTIF",
+            "tahun": "NOVEMBER 2024 - JUNI 2025",
+            "deskripsi": "Selama karir saya sebagai guru dalam kurun waktu 8 Bulan, tugas utama saya adalah memberikan pembelajaran kepada siswa dalam bidang desain grafis, contohnya seperti penggunaan perangkat lunak desain, teknik ilustrasi, dan prinsip-prinsip desain."
         },
         {
             "id": 2,
-            "perusahaan": "Nebula Systems",
-            "posisi": "Backend Engineer",
-            "tahun": "2021 - 2023",
-            "deskripsi": "Merancang API dengan Node.js untuk sistem navigasi pesawat luar angkasa."
+            "perusahaan": "CBA DIGITECHNO",
+            "posisi": "FRONTEND DEVELOPER",
+            "tahun": "ESEMBER 2022 - DESEMBER 2023",
+            "deskripsi": "Selama karir Saya sebagai frontend developer di CBA DIGITECHNO Saya telah terlibat dalam proyek pengembangan aplikasi dengan berbagai teknologi seperti Vue.js, React.js, dan Next.js tidak hanya itu Saya juga memiliki keterampilan khusus untuk mengintegrasikan Peta Digital dengan Leaflet.js pada aplikasi Saya."
         },
         {
             "id": 3,
-            "perusahaan": "Cosmo Tech",
-            "posisi": "Intern Developer",
+            "perusahaan": "MARET 2020 - NOVEMBER 2022",
+            "posisi": "WEB DEVELOPER & FRONTEND DEVELOPER",
             "tahun": "2020 - 2021",
-            "deskripsi": "Membantu tim pengembangan membuat simulasi cuaca luar angkasa dengan Python."
+            "deskripsi": "Pengalaman selama 2 tahun ini telah memperkuat keterampilan Saya dalam pengembangan frontend dan kolaborasi tim, memastikan kontribusi maksimal dalam setiap proyek yang saya kerjakan."
         },
         {
-            "id": 3,
-            "perusahaan": "Cosmo Tech",
-            "posisi": "Intern Developer",
-            "tahun": "2020 - 2021",
-            "deskripsi": "Membantu tim pengembangan membuat simulasi cuaca luar angkasa dengan Python."
+            "id": 4,
+            "perusahaan": "RUMAH SAKIT KARTINI BANDUNG",
+            "posisi": "DIGITAL CONTENT CREATOR & IT SUPPORT",
+            "tahun": "SEPTEMBER 2021 - MARET 2022",
+            "deskripsi": "Berpengalaman dalam membuat konten digital menarik untuk platform online. Saya memiliki kreativitas dalam menghasilkan konten visual dan tulisan yang mempromosikan merek serta meningkatkan interaksi pengguna. Di samping itu, saya juga ahli dalam mendukung kebutuhan teknis perusahaan sebagai IT Support, termasuk troubleshooting masalah perangkat lunak dan keras serta mengelola jaringan."
         },
         {
-            "id": 3,
-            "perusahaan": "Cosmo Tech",
-            "posisi": "Intern Developer",
-            "tahun": "2020 - 2021",
-            "deskripsi": "Membantu tim pengembangan membuat simulasi cuaca luar angkasa dengan Python."
+            "id": 5,
+            "perusahaan": "GURU DESAIN GRAFIS & GURU PROGRAMMING",
+            "posisi": "SEKOLAH MENENGAH KEJURUAN DHYANA SAKTI",
+            "tahun": "MARET 2019 - AGUSTUS 2019",
+            "deskripsi": "Tugas utama saya adalah memberikan pembelajaran kepada siswa dalam bidang desain grafis dan pemrograman komputer. Saya bertanggung jawab untuk merancang dan menyusun kurikulum yang sesuai dengan standar industri serta mengajar materi-materi yang relevan dalam desain grafis seperti penggunaan perangkat lunak desain, teknik ilustrasi, dan prinsip-prinsip desain."
+        },
+        {
+            "id": 6,
+            "perusahaan": "KOPI DESAIN - GYAN PLAZA , PASIR KOJA BANDUNG",
+            "posisi": "FREELANCE DESAIN GRAFIS",
+            "tahun": "MARET 2019 - NOVEMBER 2019",
+            "deskripsi": "Berpengalaman dalam membuat konten digital menarik untuk platform online. Saya memiliki kreativitas dalam menghasilkan konten visual dan tulisan yang mempromosikan merek serta meningkatkan interaksi pengguna. Di samping itu, Saya juga ahli dalam mendukung kebutuhan teknis perusahaan sebagai IT Support, termasuk troubleshooting masalah perangkat lunak dan perangkat keras serta mengelola jaringan."
         }
     ]
 }
