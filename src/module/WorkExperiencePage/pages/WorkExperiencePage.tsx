@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   CContainer,
   CRow,
@@ -6,12 +6,14 @@ import {
   CCard,
   CCardBody,
   CCardTitle,
-  CCardText
+  CCollapse,
+  CButton
 } from '@coreui/react'
 import '../styles/index.css'
 import experienceData from '../../../assets/data/data-work-expreince.json'
 
 export const WorkExperiencePage: React.FC = () => {
+  const [visible, setVisible] = useState<number | null>(null)
   return (
     <CContainer className="experience-container">
       <h1 className="neon-title text-center mb-4">Pengalaman Kerja</h1>
@@ -23,7 +25,17 @@ export const WorkExperiencePage: React.FC = () => {
                 <CCardTitle><div className="neon-subtitle">{exp.perusahaan}</div></CCardTitle>
                 <h6 className="posisi">{exp.posisi}</h6>
                 <h6 className="tahun">{exp.tahun}</h6>
-                <CCardText className="deskripsi">{exp.deskripsi}</CCardText>
+                <CButton
+                  className='space-btn text-white'
+                  onClick={() => setVisible(visible === exp.id ? null : exp.id)}
+                >
+                  Detail Pekerjaan
+                </CButton>
+                <CCollapse visible={visible === exp.id}>
+                  <CCard className="mt-3">
+                    <CCardBody><p>{exp.deskripsi}</p></CCardBody>
+                  </CCard>
+                </CCollapse>
               </CCardBody>
             </CCard>
           </CCol>
