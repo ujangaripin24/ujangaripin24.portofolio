@@ -22,10 +22,10 @@ export default function App() {
           <MySkillPage />
         </div>
         <div className="mt-4">
-          <WorkExperiencePage />
+          <EducationalPage />
         </div>
         <div className="mt-4">
-          <EducationalPage />
+          <WorkExperiencePage />
         </div>
         <div className="mt-4">
           <PortofolioPage />
