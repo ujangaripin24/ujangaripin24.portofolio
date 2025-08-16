@@ -1,0 +1,47 @@
+.layout-section {
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.layout-container {
+  z-index: 2;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.portofolio-title {
+  font-size: clamp(1.5rem, 3vw, 4rem);
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  color: white;
+  text-shadow:
+    0 0 5px #4dd0e1,
+    0 0 10px #4dd0e1,
+    0 0 20px #4dd0e1,
+    0 0 40px #4dd0e1;
+}
+
+.portofolio-subtitle {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.portofolio-content {
+  font-size: clamp(0.2rem);
+  color: white;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.portofolio-layout {
+  height: 100vh;
+  justify-items: center;
+}

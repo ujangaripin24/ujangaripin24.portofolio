@@ -15,8 +15,6 @@ body,
 #root {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
   background: #0d010f;
   overflow-x: hidden;
   overflow-y: scroll;

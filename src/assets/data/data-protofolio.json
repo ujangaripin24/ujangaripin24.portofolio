@@ -1,0 +1,133 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 1,
+            "nama_proyek": "Proyek 1",
+            "detail_proyek": "detail proyek",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
+            "jumlah_tim": 8,
+            "tahun": "2025",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Backend"
+                },
+                {
+                    "id": "2",
+                    "nama_peran": "Frontend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Express.js"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "React.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "AWS"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "nama_proyek": "Proyek 1",
+            "detail_proyek": "detail proyek",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
+            "jumlah_tim": 8,
+            "tahun": "2025",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Backend"
+                },
+                {
+                    "id": "2",
+                    "nama_peran": "Frontend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Express.js"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "React.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "AWS"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "nama_proyek": "Proyek 1",
+            "detail_proyek": "detail proyek",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
+            "jumlah_tim": 8,
+            "tahun": "2025",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Backend"
+                },
+                {
+                    "id": "2",
+                    "nama_peran": "Frontend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Express.js"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "React.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "AWS"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "nama_proyek": "Proyek 1",
+            "detail_proyek": "detail proyek",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
+            "jumlah_tim": 8,
+            "tahun": "2025",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Backend"
+                },
+                {
+                    "id": "2",
+                    "nama_peran": "Frontend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Express.js"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "React.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "AWS"
+                }
+            ]
+        }
+    ]
+}
