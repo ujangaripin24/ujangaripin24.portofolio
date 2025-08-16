@@ -2,6 +2,7 @@ import StarBackground from "./components/StarBackground";
 import MainLayout from "./layout/MainLayout";
 import AboutPage from "./module/AboutMePage/pages/AboutPage";
 import { EducationalPage } from "./module/EducationalPage/pages/EducationalPage";
+import FooterPage from "./module/FooterPage/pages/FooterPage";
 import MySkillPage from "./module/MySkillPage/pages/MySkillPage";
 import OpeningPage from "./module/OpeningPage/pages/OpeningPage";
 import PortofolioPage from "./module/PortofolioPage/pages/PortofolioPage";
@@ -30,8 +31,10 @@ export default function App() {
         <div className="mt-4">
           <PortofolioPage />
         </div>
+        <div className="mt-4">
+          <FooterPage />
+        </div>
       </MainLayout>
-
     </div>
   );
 }

@@ -14,22 +14,22 @@ const PortofolioPage: React.FC = () => {
         <CRow className="g-4">
           {dataPortofolio.data.map((item) => (
             <CCol key={item.id} lg={6} md={12}>
-              <CCard style={{ width: '100%' }} className='card'>
+              <CCard className='card-portofolio'>
                 <CCardImage orientation="top" src={item.image_link} width="100%" height="300px" />
                 <CCardBody className='card-body'>
-                  <CCardTitle>{item.nama_proyek}</CCardTitle>
+                  <CCardTitle><div className="text-white">{item.nama_proyek}</div></CCardTitle>
                   <CCardText>
-                    {item.teknologi.map((tech) => tech.nama_teknologi).join(', ')}
+                    <div className="text-white">{item.teknologi.map((tech) => tech.nama_teknologi).join(', ')}</div>
                   </CCardText>
                   <CButton
-                    color="primary"
+                  className="space-btn"
                     onClick={() => setVisible(visible === item.id ? null : item.id)}
                   >
-                    Detail Proyek
+                    <div className="text-white">Detail Proyek</div>
                   </CButton>
                   <CCollapse visible={visible === item.id}>
                     <CCard className="mt-3">
-                      <CCardBody><p>{item.detail_proyek}</p></CCardBody>
+                      <CCardBody>{item.detail_proyek}</CCardBody>
                     </CCard>
                   </CCollapse>
                 </CCardBody>
