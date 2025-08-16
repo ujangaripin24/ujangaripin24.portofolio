@@ -3,11 +3,43 @@
     "data": [
         {
             "id": 1,
-            "nama_proyek": "Proyek 1",
-            "detail_proyek": "detail proyek",
+            "nama_proyek": "SIKARAD",
+            "detail_proyek": "System Management Personel TNI-AD adalah aplikasi management untuk mengelola data administrasi jabatan personel Tentara Nasional Indonesia Angkatan Darat (TNI-AD) secara terpusat dan terintergrasi. Aplikasi ini dibangun dengan Express sebagai Backend dan Vue.js Sebagai frontend untuk menyederhanakan proses administrasi personel TNI-AD di satuannya masing-masing",
             "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
-            "jumlah_tim": 8,
+            "jumlah_tim": 2,
             "tahun": "2025",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Backend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Express.js"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Sequelize"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Supabase"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Vercel"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nama_proyek": "Sistem Management Penyimpanan Pangan",
+            "detail_proyek": "Sistem Management Penyimpanan Pangan adalah aplikasi web yang dibangun dengan backend menggunakan Express dan frontend menggunakan Vue. Aplikasi ini memanfaatkan Vuex untuk state management yang efisien dan Jest untuk memastikan kualitas kode melalui unit testing yang menyeluruh.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-16.png",
+            "jumlah_tim": 4,
+            "tahun": "2024",
             "peran": [
                 {
                     "id": "1",
@@ -21,111 +53,451 @@
             "teknologi": [
                 {
                     "id": 1,
-                    "nama_teknologi": "Express.js"
+                    "nama_teknologi": "Vue.js"
                 },
                 {
                     "id": 2,
-                    "nama_teknologi": "React.js"
+                    "nama_teknologi": "Bootstrap"
                 },
                 {
                     "id": 3,
+                    "nama_teknologi": "Express.js"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Express-Session"
+                },
+                {
+                    "id": 6,
+                    "nama_teknologi": "Vercel"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nama_proyek": "Multivendor Ecommerce Management System",
+            "detail_proyek": "Multivendor Ecommerce Management System adalah platform berbasis web yang dirancang untuk memungkinkan berbagai penjual (vendor) mengelola produk dan transaksi mereka dalam satu sistem terpusat. Aplikasi ini memberikan fleksibilitas bagi vendor untuk memasarkan produk mereka, sementara pembeli dapat mencari dan membeli dari berbagai vendor dalam satu platform. Aplikasi ini dibangun menggunakan arsitektur front-end dan back-end yang modern, dengan penerapan otomatisasi pengujian dan deployment untuk memastikan keandalan, skalabilitas, dan keamanan.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-17.png",
+            "jumlah_tim": 2,
+            "tahun": "2023",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Backend"
+                },
+                {
+                    "id": "2",
+                    "nama_peran": "Frontend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Angular"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Gin-Gonic"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "AWS (RDS & EC2)"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Jasmine (Unit Testing)"
+                },
+                {
+                    "id": 6,
+                    "nama_teknologi": "GIT"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nama_proyek": "School Management System",
+            "detail_proyek": "Proyek School Management System adalah sebuah aplikasi yang dirancang untuk mempermudah pengelolaan sekolah dengan mengintegrasikan teknologi modern. Aplikasi ini dibangun dengan menggunakan teknologi terbaru, seperti React.js, Redux untuk Autentikasi MUI (Material-UI), dan CKEditor5, untuk memberikan pengguna pengalaman yang responsif, estetis, dan user-friendly.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-10.png",
+            "jumlah_tim": 6,
+            "tahun": "2023",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Frontend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "React.js"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Material-UI"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "CKEditor 5"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Putty"
+                },
+                {
+                    "id": 6,
                     "nama_teknologi": "AWS"
                 }
             ]
         },
         {
-            "id": 1,
-            "nama_proyek": "Proyek 1",
-            "detail_proyek": "detail proyek",
-            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
-            "jumlah_tim": 8,
-            "tahun": "2025",
+            "id": 5,
+            "nama_proyek": "Virtual Business Disaster Operation Center",
+            "detail_proyek": "Aplikasi Virtual Business Disaster Operation Center adalah solusi inovatif yang berperan penting dalam manajemen keadaan darurat dan mitigasi dampaknya pada bisnis. Dengan antarmuka yang interaktif dan responsif, aplikasi ini memungkinkan tim manajemen bisnis untuk mengakses informasi penting secara real-time.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-9.png",
+            "jumlah_tim": 5,
+            "tahun": "2023",
             "peran": [
                 {
                     "id": "1",
-                    "nama_peran": "Backend"
-                },
-                {
-                    "id": "2",
                     "nama_peran": "Frontend"
                 }
             ],
             "teknologi": [
                 {
                     "id": 1,
-                    "nama_teknologi": "Express.js"
+                    "nama_teknologi": "Vue.js"
                 },
                 {
                     "id": 2,
-                    "nama_teknologi": "React.js"
+                    "nama_teknologi": "Vue-Bootstrap"
                 },
                 {
                     "id": 3,
-                    "nama_teknologi": "AWS"
+                    "nama_teknologi": "Leaflet"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Apexchart.js"
+                },
+                {
+                    "id": 6,
+                    "nama_teknologi": "Putty"
                 }
             ]
         },
         {
-            "id": 1,
-            "nama_proyek": "Proyek 1",
-            "detail_proyek": "detail proyek",
-            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
-            "jumlah_tim": 8,
-            "tahun": "2025",
+            "id": 6,
+            "nama_proyek": "System Information for Emergency Preparedness & Response",
+            "detail_proyek": "Aplikasi System Information for Emergency Preparedness & Response adalah Aplikasi yang dirancang untuk menghadirkan tanggapan cepat dan efektif dalam situasi darurat. Berdasarkan teknologi modern seperti Vue.js, Leaflet, ApexCharts, dan Axios, aplikasi ini memberikan alat yang kuat untuk pengumpulan, visualisasi, dan analisis data yang sangat penting dalam situasi krisis.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-8.png",
+            "jumlah_tim": 5,
+            "tahun": "2023",
             "peran": [
                 {
                     "id": "1",
-                    "nama_peran": "Backend"
-                },
-                {
-                    "id": "2",
                     "nama_peran": "Frontend"
                 }
             ],
             "teknologi": [
                 {
                     "id": 1,
-                    "nama_teknologi": "Express.js"
+                    "nama_teknologi": "Vue.js"
                 },
                 {
                     "id": 2,
-                    "nama_teknologi": "React.js"
+                    "nama_teknologi": "Vue-Bootstrap"
                 },
                 {
                     "id": 3,
-                    "nama_teknologi": "AWS"
+                    "nama_teknologi": "Leaflet"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Apexchart.js"
+                },
+                {
+                    "id": 6,
+                    "nama_teknologi": "Putty"
                 }
             ]
         },
         {
-            "id": 1,
-            "nama_proyek": "Proyek 1",
-            "detail_proyek": "detail proyek",
-            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-18.png",
-            "jumlah_tim": 8,
-            "tahun": "2025",
+            "id": 7,
+            "nama_proyek": "E-voting",
+            "detail_proyek": "Aplikasi E-Voting yang kami ciptakan menggunakan teknologi terbaru untuk memberikan pengalaman pemilihan yang aman, transparan, dan efisien. Berbasis Next.js, platform ini memberikan kecepatan dan kinerja luar biasa, sehingga pemilih dapat dengan mudah dan cepat melakukan pemilihan mereka.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-7.png",
+            "jumlah_tim": 5,
+            "tahun": "2023",
             "peran": [
                 {
                     "id": "1",
-                    "nama_peran": "Backend"
-                },
-                {
-                    "id": "2",
                     "nama_peran": "Frontend"
                 }
             ],
             "teknologi": [
                 {
                     "id": 1,
-                    "nama_teknologi": "Express.js"
+                    "nama_teknologi": "Next.js "
                 },
                 {
                     "id": 2,
-                    "nama_teknologi": "React.js"
+                    "nama_teknologi": "Reactstrap"
                 },
                 {
                     "id": 3,
-                    "nama_teknologi": "AWS"
+                    "nama_teknologi": "Apexchart.js"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "GIT"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "nama_proyek": "Aplikasi Navigasi Event Lintas Alam",
+            "detail_proyek": "Aplikasi Navigasi Event Lintas Alam yang kami kembangkan menggunakan Ionic 5 dan Angular, memanfaatkan kemampuan Capacitor untuk akses perangkat keras, integrasi dengan Mapbox untuk peta interaktif, dan Axios untuk pengambilan data dari API eksternal, memungkinkan pengambilan data lokasi secara realtime berdasarkan lokasi pengguna.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-15.png",
+            "jumlah_tim": 4,
+            "tahun": "2021",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Hybird"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Angular"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Ionic 5"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Capacitor"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Mapbox"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "nama_proyek": "Vue & Firebase FireBlog",
+            "detail_proyek": "Vue.js dan kehandalan Firebase, FireBlog memberikan platform blogging yang canggih dan mudah digunakan. Manfaatkan Firebase Firestore untuk manajemen konten yang efisien, Firebase Storage untuk penyimpanan file yang aman, dan Firebase Authentication untuk perlindungan data yang kuat. Dengan kombinasi ini, FireBlog memungkinkan pengguna untuk fokus pada konten tanpa khawatir tentang infrastruktur.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-11.png",
+            "jumlah_tim": 1,
+            "tahun": "2021",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Frontend"
+                },
+                {
+                    "id": "2",
+                    "nama_peran": "Backend"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Vue"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Firebase"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Firebase-Storage"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Firebase-Authentication"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "nama_proyek": "Sistem Informasi Pantau Banjir",
+            "detail_proyek": "Aplikasi Sistem Informasi Pantau Banjir adalah solusi yang inovatif dan penting dalam upaya memitigasi risiko banjir dan melindungi masyarakat. Dengan memanfaatkan berbagai teknologi modern, menciptakan alat yang kuat untuk memantau dan memberikan informasi yang sangat dibutuhkan tentang kondisi banjir dalam waktu nyata.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-4.png",
+            "jumlah_tim": 1,
+            "tahun": "2021",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Fullstack"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Codeigniter 3"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Chart.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Leaflet"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "000webhost"
+                },
+                {
+                    "id": 5,
+                    "nama_teknologi": "JavaScript"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "nama_proyek": "Sistem Informasi Pegawai",
+            "detail_proyek": "Dalam era informasi yang berkembang pesat, kami dengan bangga mempersembahkan Sistem Informasi Pegawai, sebuah aplikasi canggih yang dirancang untuk memudahkan manajemen sumber daya manusia dengan efisien. Aplikasi ini ditenagai oleh berbagai teknologi mutakhir, menciptakan ekosistem yang memungkinkan perusahaan untuk melacak, mengelola, dan mengoptimalkan tenaga kerja mereka dengan mudah.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-5.png",
+            "jumlah_tim": 5,
+            "tahun": "2020",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Fullstack"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Codeigniter 4"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Chart.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Leaflet"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Filezilla"
+                },
+                {
+                    "id": 5,
+                    "nama_teknologi": "Admin LTE 3"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "nama_proyek": "Aplikasi Kasir & Inventory",
+            "detail_proyek": "Aplikasi Kasir dan Inventory kami adalah solusi canggih yang dirancang untuk mengoptimalkan dan mempermudah manajemen kasir yang kompleks. Ditenagai oleh kombinasi teknologi modern, aplikasi ini memberikan alat yang kuat bagi perusahaan untuk mengelola persediaan mereka dengan efisien.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-6.jpg",
+            "jumlah_tim": 5,
+            "tahun": "2029",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Fullstack"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Codeigniter 3"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Chart.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Leaflet"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Filezilla"
+                },
+                {
+                    "id": 5,
+                    "nama_teknologi": "Admin LTE 3"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "nama_proyek": "Sistem Informasi Report Proyek Jalan",
+            "detail_proyek": "dalam proyek inovatif ini, kami menghadirkan Sistem Informasi Report Proyek Jalan yang canggih dan efisien, didukung oleh rangkaian teknologi terkini. Menggunakan platform pengembangan web CodeIgniter 3, kami telah menciptakan solusi yang responsif untuk memantau dan melaporkan kemajuan proyek jalan dengan sangat efisien websitenya.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-3.png",
+            "jumlah_tim": 5,
+            "tahun": "2019",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Fullstack"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Codeigniter 3"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Chart.js"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Putty"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Filezilla"
+                },
+                {
+                    "id": 5,
+                    "nama_teknologi": "Admin LTE 3"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "nama_proyek": "Website Informasi E-Cultur",
+            "detail_proyek": "Dalam era digital yang terus berkembang, kami dengan bangga mempersembahkan Website Informasi E-Cultur, sebuah platform yang inovatif dan informatif yang dibangun dengan teknologi terkini. Dengan menggunakan framework web CodeIgniter 3 yang kuat, kami telah menciptakan sebuah ekosistem daring yang memungkinkan pengguna untuk menjelajahi, menggali, dan mendalam ke dalam kekayaan budaya Indonesia.",
+            "image_link": "https://ujangaripin24.github.io/img/portofolio/project-2.png",
+            "jumlah_tim": 5,
+            "tahun": "2019",
+            "peran": [
+                {
+                    "id": "1",
+                    "nama_peran": "Fullstack"
+                }
+            ],
+            "teknologi": [
+                {
+                    "id": 1,
+                    "nama_teknologi": "Codeigniter 3"
+                },
+                {
+                    "id": 2,
+                    "nama_teknologi": "Leaflet"
+                },
+                {
+                    "id": 3,
+                    "nama_teknologi": "Putty"
+                },
+                {
+                    "id": 4,
+                    "nama_teknologi": "Filezilla"
+                },
+                {
+                    "id": 5,
+                    "nama_teknologi": "Admin LTE 3"
                 }
             ]
         }
