@@ -1,0 +1,54 @@
+.neon-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  color: white;
+  text-shadow:
+    0 0 5px #4dd0e1,
+    0 0 10px #4dd0e1,
+    0 0 20px #4dd0e1,
+    0 0 40px #4dd0e1;
+}
+
+.neon-subtitle {
+  font-size: clamp(1rem, 1.1vw, 1.5rem);
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: justify;
+}
+
+.experience-card {
+  background-color: transparent !important;
+  color: #fff;
+  border: 2px solid #4dd0e1;
+  box-shadow: 0 0 15px rgba(77, 208, 225, 0.7), inset 0 0 10px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  text-shadow: 0 0 5px #4dd0e1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+}
+
+.posisi {
+  color: #00ffb3;
+  font-weight: 600;
+}
+
+.tahun {
+  color: #ffeb3b;
+  font-size: 0.9rem;
+}
+
+.deskripsi {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}

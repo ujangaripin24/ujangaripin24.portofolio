@@ -1,0 +1,40 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 1,
+            "perusahaan": "Galactic Corp",
+            "posisi": "Frontend Developer",
+            "tahun": "2023 - Sekarang",
+            "deskripsi": "Mengembangkan antarmuka interaktif untuk dashboard pengendalian roket menggunakan React.js dan Three.js."
+        },
+        {
+            "id": 2,
+            "perusahaan": "Nebula Systems",
+            "posisi": "Backend Engineer",
+            "tahun": "2021 - 2023",
+            "deskripsi": "Merancang API dengan Node.js untuk sistem navigasi pesawat luar angkasa."
+        },
+        {
+            "id": 3,
+            "perusahaan": "Cosmo Tech",
+            "posisi": "Intern Developer",
+            "tahun": "2020 - 2021",
+            "deskripsi": "Membantu tim pengembangan membuat simulasi cuaca luar angkasa dengan Python."
+        },
+        {
+            "id": 3,
+            "perusahaan": "Cosmo Tech",
+            "posisi": "Intern Developer",
+            "tahun": "2020 - 2021",
+            "deskripsi": "Membantu tim pengembangan membuat simulasi cuaca luar angkasa dengan Python."
+        },
+        {
+            "id": 3,
+            "perusahaan": "Cosmo Tech",
+            "posisi": "Intern Developer",
+            "tahun": "2020 - 2021",
+            "deskripsi": "Membantu tim pengembangan membuat simulasi cuaca luar angkasa dengan Python."
+        }
+    ]
+}
