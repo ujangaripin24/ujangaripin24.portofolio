@@ -16,19 +16,19 @@ export default function App() {
         <div className="mt-4">
           <OpeningPage />
         </div>
-        <div className="mt-4">
+        <div className="mt-4" id="about">
           <AboutPage />
         </div>
-        <div className="mt-4">
+        <div className="mt-4" id="skill">
           <MySkillPage />
         </div>
-        <div className="mt-4">
+        <div className="mt-4" id="education">
           <EducationalPage />
         </div>
-        <div className="mt-4">
+        <div className="mt-4" id="work">
           <WorkExperiencePage />
         </div>
-        <div className="mt-4">
+        <div className="mt-4" id="portofolio">
           <PortofolioPage />
         </div>
         <div className="mt-4">

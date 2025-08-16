@@ -1,7 +1,12 @@
-import { CAvatar } from "@coreui/react";
 import React from "react";
 
 const HeaderLayout: React.FC = () => {
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <nav
       className="navbar navbar-expand-lg fixed-top"
@@ -31,36 +36,41 @@ const HeaderLayout: React.FC = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link text-white" href="#about">
+              <a
+                className="nav-link text-white"
+                onClick={() => scrollToSection("about")}
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#skills">
+              <a className="nav-link text-white"
+                onClick={() => scrollToSection("skill")}>
                 Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#portfolio">
-                Portfolio
+              <a className="nav-link text-white"
+                onClick={() => scrollToSection("education")}>
+                Education
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#work">
+              <a className="nav-link text-white"
+                onClick={() => scrollToSection("work")}>
                 Work Experience
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#education">
-                Education
+              <a className="nav-link text-white"
+                onClick={() => scrollToSection("portofolio")}>
+                Portfolio
               </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-
   );
 };
 
