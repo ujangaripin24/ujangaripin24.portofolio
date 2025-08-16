@@ -19,13 +19,3 @@ body,
 canvas {
   display: block;
 }
-
-/* .body-layer::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 20% 20%, rgba(77, 208, 225, 0.2), transparent),
-    radial-gradient(circle at 80% 80%, rgba(255, 0, 255, 0.2), transparent);
-  animation: nebulaMove 10s ease-in-out infinite alternate;
-  z-index: 0;
-} */

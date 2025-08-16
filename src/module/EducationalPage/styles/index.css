@@ -1,4 +1,4 @@
-.skill-title {
+.neon-text {
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 900;
   font-style: italic;
@@ -14,27 +14,20 @@
     0 0 40px #4dd0e1;
 }
 
-.skill-subtitle {
+.education-container {
+  justify-items: center;
+}
+
+.neon-subtitle {
   font-size: clamp(1rem, 1.1vw, 1.5rem);
-  font-weight: 700;
-  margin-bottom: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
   color: white;
   text-align: justify;
 }
 
-.skill-content {
-  font-size: clamp(0.2rem);
-  color: white;
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
-
-.skill-layout {
-  justify-items: center;
-}
-
-.space-btn {
-  background-color: rgba(0, 0, 0, 0.5);
+.education-card {
+  background-color: transparent !important;
   color: #fff;
   border: 2px solid #4dd0e1;
   box-shadow: 0 0 15px rgba(77, 208, 225, 0.7), inset 0 0 10px rgba(255, 255, 255, 0.2);
@@ -43,7 +36,31 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.space-btn:hover {
+.education-card:hover {
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 0 10px #00f7ff, 0 0 20px #ff4cff;
+}
+
+.tahun {
+  font-size: 0.9rem;
+  color: #00f7ff;
+}
+
+.jurusan {
+  font-size: 1rem;
+  color: #ff4cff;
+}
+
+.deskripsi {
+  font-size: 0.9rem;
+  color: #cfcfff;
+}
+
+@media (max-width: 576px) {
+  .neon-text {
+    font-size: 1.8rem;
+  }
+  .education-card {
+    padding: 1rem;
+  }
 }

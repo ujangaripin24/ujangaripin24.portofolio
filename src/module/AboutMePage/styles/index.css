@@ -49,8 +49,7 @@
 }
 
 .card-body:hover {
-  transform: scale(1);
-  box-shadow: 0 0 25px rgba(77, 208, 225, 1), inset 0 0 15px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #ff4cff;
 }
 
 .card-body:active {
@@ -72,12 +71,8 @@
 }
 
 .space-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px rgba(77, 208, 225, 1), inset 0 0 15px rgba(255, 255, 255, 0.4);
-}
-
-.space-btn:active {
-  transform: scale(0.98);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #ff4cff;
 }
 
 .about-contact {

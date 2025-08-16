@@ -6,20 +6,32 @@ import MySkillPage from "./module/MySkillPage/pages/MySkillPage";
 import OpeningPage from "./module/OpeningPage/pages/OpeningPage";
 import PortofolioPage from "./module/PortofolioPage/pages/PortofolioPage";
 import WorkExperiencePage from "./module/WorkExperiencePage/pages/WorkExperiencePage";
-import './index.css'
 
 export default function App() {
   return (
-    <div className="body-layer">
+    <div>
       <MainLayout>
         <StarBackground />
-        <OpeningPage />
-        <AboutPage />
-        <MySkillPage />
-        <PortofolioPage />
-        <WorkExperiencePage />
-        <EducationalPage />
+        <div className="mt-4">
+          <OpeningPage />
+        </div>
+        <div className="mt-4">
+          <AboutPage />
+        </div>
+        <div className="mt-4">
+          <MySkillPage />
+        </div>
+        <div className="mt-4">
+          <WorkExperiencePage />
+        </div>
+        <div className="mt-4">
+          <EducationalPage />
+        </div>
+        <div className="mt-4">
+          <PortofolioPage />
+        </div>
       </MainLayout>
+
     </div>
   );
 }

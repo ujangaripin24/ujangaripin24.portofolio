@@ -1,5 +1,5 @@
 import React from 'react'
-import { CCol, CContainer, CImage, CRow } from "@coreui/react";
+import { CButton, CCol, CContainer, CImage, CRow } from "@coreui/react";
 import '../styles/index.css'
 
 const MySkillPage: React.FC = () => {
@@ -14,7 +14,7 @@ const MySkillPage: React.FC = () => {
           <div>
             <CRow>
               <CCol>
-                <CImage loading='lazy' title="Vue" className='space-btn' src={'https://ujangaripin24.github.io/img/icon/Vue.svg'} width={100} height={'auto'} />
+                <CImage loading='lazy' title="Vue" src={'https://ujangaripin24.github.io/img/icon/Vue.svg'} width={100} height={'auto'} />
               </CCol>
               <CCol>
                 <CImage loading='lazy' title="React" className='space-btn' src={'https://ujangaripin24.github.io/img/icon/React.svg'} width={100} height={'auto'} />
