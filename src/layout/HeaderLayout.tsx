@@ -1,4 +1,5 @@
 import React from "react";
+import './HeaderLayout.css'
 
 const HeaderLayout: React.FC = () => {
   const scrollToSection = (id: string) => {
@@ -9,15 +10,10 @@ const HeaderLayout: React.FC = () => {
   };
   return (
     <nav
-      className="navbar navbar-expand-lg fixed-top"
-      style={{
-        backdropFilter: "blur(10px)",
-        backgroundColor: "rgba(13, 1, 15, 0.4)",
-        borderBottom: "1px solid rgba(255, 255, 255, 0.1)",
-      }}
-    >
+      className="navbar navbar-expand-lg fixed-top nav-style">
       <div className="container">
-        <a className="navbar-brand text-white fw-bold" href="#home">
+        <a className="navbar-brand text-white fw-bold"
+          onClick={() => scrollToSection("home")}>
           Ujang Aripin
         </a>
 

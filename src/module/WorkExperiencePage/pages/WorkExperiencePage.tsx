@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion } from "framer-motion"
 import {
   CContainer,
   CRow,
@@ -25,12 +26,20 @@ export const WorkExperiencePage: React.FC = () => {
                 <CCardTitle><div className="neon-subtitle">{exp.perusahaan}</div></CCardTitle>
                 <h6 className="posisi">{exp.posisi}</h6>
                 <h6 className="tahun">{exp.tahun}</h6>
-                <CButton
-                  className='space-btn text-white'
-                  onClick={() => setVisible(visible === exp.id ? null : exp.id)}
+
+                <motion.div
+                  whileHover={{ scale: 1.1, rotate: 2 }}
+                  whileTap={{ scale: 0.95 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  style={{ display: "inline-block", margin: "4px" }}
                 >
-                  🚀 Detail Pekerjaan
-                </CButton>
+                  <CButton
+                    className='space-btn text-white'
+                    onClick={() => setVisible(visible === exp.id ? null : exp.id)}
+                  >
+                    🚀 Detail Pekerjaan
+                  </CButton>
+                </motion.div>
                 <CCollapse visible={visible === exp.id}>
                   <CCard className="mt-3">
                     <CCardBody><p>{exp.deskripsi}</p></CCardBody>

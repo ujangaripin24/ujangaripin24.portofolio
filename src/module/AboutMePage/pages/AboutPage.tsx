@@ -1,5 +1,6 @@
 import type React from "react"
 import '../styles/index.css'
+import { motion } from "framer-motion"
 import { CButton, CCard, CCardBody, CCol, CContainer, CImage, CRow } from "@coreui/react";
 import profileImage from '../../../assets/ujang.webp'
 
@@ -39,11 +40,19 @@ const AboutPage: React.FC = () => {
                 </CRow>
               </div>
               <div className="about-contact">
-                <CButton className="about-contact space-btn text-white">🚀 WhatsApp</CButton>
-                <CButton className="about-contact space-btn text-white">🚀 Facebook</CButton>
-                <CButton className="about-contact space-btn text-white">🚀 Instagram</CButton>
-                <CButton className="about-contact space-btn text-white">🚀 LinkedIn</CButton>
-                <CButton className="about-contact space-btn text-white">🚀 Gmail</CButton>
+                {["WhatsApp", "Facebook", "Instagram", "LinkedIn", "Gmail"].map((platform, index) => (
+                  <motion.div
+                    key={platform}
+                    whileHover={{ scale: 1.1, rotate: 2 }}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    style={{ display: "inline-block", margin: "4px" }}
+                  >
+                    <CButton className="about-contact space-btn text-white">
+                      🚀 {platform}
+                    </CButton>
+                  </motion.div>
+                ))}
               </div>
             </CCol>
           </CRow>

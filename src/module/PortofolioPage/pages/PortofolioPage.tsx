@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion } from "framer-motion"
 import '../styles/index.css'
 import { CButton, CCard, CCardBody, CCardImage, CCardText, CCardTitle, CCol, CCollapse, CContainer, CRow } from '@coreui/react'
 import dataPortofolio from '../../../assets/data/data-protofolio.json'
@@ -21,12 +22,20 @@ const PortofolioPage: React.FC = () => {
                   <CCardText>
                     <div className="text-white">{item.teknologi.map((tech) => tech.nama_teknologi).join(', ')}</div>
                   </CCardText>
-                  <CButton
-                  className="space-btn"
-                    onClick={() => setVisible(visible === item.id ? null : item.id)}
+                  <motion.div
+                    whileHover={{ scale: 1.1, rotate: 2 }}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    style={{ display: "inline-block", margin: "4px" }}
                   >
-                    <div className="text-white">🚀 Detail Proyek</div>
-                  </CButton>
+                    <CButton
+                      className="space-btn"
+                      onClick={() => setVisible(visible === item.id ? null : item.id)}
+                    >
+                      <div className="text-white">🚀 Detail Proyek</div>
+                    </CButton>
+                  </motion.div>
+
                   <CCollapse visible={visible === item.id}>
                     <CCard className="mt-3">
                       <CCardBody>{item.detail_proyek}</CCardBody>

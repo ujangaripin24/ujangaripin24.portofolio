@@ -13,7 +13,7 @@ export default function App() {
     <div>
       <MainLayout>
         <StarBackground />
-        <div className="mt-4">
+        <div className="mt-4" id="home">
           <OpeningPage />
         </div>
         <div className="mt-4" id="about">
