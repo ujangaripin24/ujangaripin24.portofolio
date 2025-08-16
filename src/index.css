@@ -13,13 +13,6 @@
 html,
 body,
 #root {
-  margin: 0;
-  padding: 0;
-  background: #0d010f;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   font-family: 'Orbitron', sans-serif;
 }
 

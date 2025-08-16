@@ -8,7 +8,7 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div style={{ background: "#0d010f", minHeight: "100vh", overflowX: "hidden"}}>
+    <div style={{ background: "#0d010f", overflowX: "hidden", overflowY: "hidden" }}>
       <div
         style={{
           position: "fixed",

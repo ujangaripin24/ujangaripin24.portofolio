@@ -6,12 +6,11 @@ import dataPortofolio from '../../../assets/data/data-protofolio.json'
 const PortofolioPage: React.FC = () => {
   const [visible, setVisible] = useState<number | null>(null)
   return (
-    <section className="layout-section">
-      <CContainer className="layout-container">
+      <CContainer>
         <div className="text-center">
           <h1 className="portofolio-title">PORTOFOLIO SAYA</h1>
         </div>
-        <div className="portofolio-layout">
+        <div>
           <CRow className="g-4">
             {dataPortofolio.data.map((item) => (
               <CCol key={item.id} lg={6} md={12}>
@@ -40,7 +39,6 @@ const PortofolioPage: React.FC = () => {
           </CRow>
         </div>
       </CContainer>
-    </section>
   )
 }
 
