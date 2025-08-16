@@ -29,7 +29,7 @@ export const WorkExperiencePage: React.FC = () => {
                   className='space-btn text-white'
                   onClick={() => setVisible(visible === exp.id ? null : exp.id)}
                 >
-                  Detail Pekerjaan
+                  🚀 Detail Pekerjaan
                 </CButton>
                 <CCollapse visible={visible === exp.id}>
                   <CCard className="mt-3">

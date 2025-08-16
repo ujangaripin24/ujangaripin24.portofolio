@@ -1,3 +1,4 @@
+import { CAvatar } from "@coreui/react";
 import React from "react";
 
 const HeaderLayout: React.FC = () => {
@@ -12,7 +13,7 @@ const HeaderLayout: React.FC = () => {
     >
       <div className="container">
         <a className="navbar-brand text-white fw-bold" href="#home">
-          🚀 UJANG ARIPIN
+          Ujang Aripin
         </a>
 
         <button

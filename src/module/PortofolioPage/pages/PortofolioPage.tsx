@@ -25,7 +25,7 @@ const PortofolioPage: React.FC = () => {
                   className="space-btn"
                     onClick={() => setVisible(visible === item.id ? null : item.id)}
                   >
-                    <div className="text-white">Detail Proyek</div>
+                    <div className="text-white">🚀 Detail Proyek</div>
                   </CButton>
                   <CCollapse visible={visible === item.id}>
                     <CCard className="mt-3">
