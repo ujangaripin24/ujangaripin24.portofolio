@@ -40,7 +40,7 @@ const AboutPage: React.FC = () => {
                 </CRow>
               </div>
               <div className="about-contact">
-                {["WhatsApp", "Facebook", "Instagram", "LinkedIn", "Gmail"].map((platform, index) => (
+                {["WhatsApp", "Facebook", "Instagram", "LinkedIn", "Gmail"].map((platform) => (
                   <motion.div
                     key={platform}
                     whileHover={{ scale: 1.1, rotate: 2 }}
